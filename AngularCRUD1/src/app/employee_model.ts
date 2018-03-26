@@ -3,11 +3,11 @@ export class Employee{
     name:string;
     gender:string;
     email?:string;
-    phoneNumber?:string;
+    phoneNumber?:number;
     contactPreference:string;
     dateOfBirth:Date;
     department:string;
-    isActive:string;
+    isActive:boolean;
     photoPath:string;
 
 }
